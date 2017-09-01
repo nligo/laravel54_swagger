@@ -1,0 +1,24 @@
+{
+    "swagger": "2.0",
+    "info": {
+        "title": "\u6d4b\u8bd5",
+        "description": "\u6d4b\u8bd5\u7684API",
+        "version": "1.0.0"
+    },
+    "paths": {
+        "/": {
+            "post": {
+                "summary": "\u6d4b\u8bd5",
+                "responses": {
+                    "200": {
+                        "description": "It's ok"
+                    },
+                    "default": {
+                        "description": "unexpected error"
+                    }
+                }
+            }
+        }
+    },
+    "definitions": {}
+}
